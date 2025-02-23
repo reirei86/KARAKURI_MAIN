@@ -1,0 +1,3 @@
+[submodule "PRACTICE/arduino_examples"]
+	path = PRACTICE/arduino_examples
+	url = git@github.com:reirei86/arduino_examples.git
