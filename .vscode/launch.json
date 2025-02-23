@@ -1,0 +1,41 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "address": "TCP/IP address of process to be debugged",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 9229,
+            "remoteRoot": "Absolute path to the remote directory containing the program",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "(lldb) 起動",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "プログラム名を入力してください (例: ${workspaceFolder}/a.out)",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "(lldb) 接続",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "プログラム名を入力してください (例: ${workspaceFolder}/a.out)",
+            "MIMode": "lldb"
+        }
+
+
+    ]
+}
