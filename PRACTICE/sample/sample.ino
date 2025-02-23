@@ -4,7 +4,6 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(13, OUTPUT);
   //test update
-  //test update2
 }
 
 void loop() {
